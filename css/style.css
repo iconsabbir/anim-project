@@ -353,8 +353,8 @@ display: flex;
 /*help-content end*/
 
 .smart-section{
-  margin-bottom: 80px;
-  
+  margin-bottom: 500px;
+   
 }
 .work-smart{
   background-color: #34365A;
@@ -385,12 +385,37 @@ margin-bottom: 40px;
 }
 
 .smart-content button{
-  margin-bottom: 800px;
-  padding: 14px 30px;
+  margin-bottom: 700px;
+  padding: 12px 60px;
   border-radius: 30px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 22px;
   
 
 }
+.but-1{
+  background-color: transparent;
+  border-color: white;
+  color: #f1f2f6;
+  transition: 0.3s;
+}
+.but-2{
+    color: #34365A;
+    transition: 0.3s;
+}
+
+.but-1:hover{
+  background-color: white;
+  color: #2F3151;
+}
+.but-2:hover{
+  background-color: #2F3151;
+  color: #f1f2f6;
+  border-color: #f1f2f6;
+}
+
 .smart-man{
   position: absolute;
  
@@ -431,6 +456,7 @@ margin-bottom: 40px;
   margin-bottom: 38px;
   margin-top:30px;
 }
+
 .man-content button{
   margin-left: 54px;
   padding:15px 30px;
@@ -442,10 +468,216 @@ margin-bottom: 40px;
   font-weight: 600;
   transition:  0.4s ease;
 }
-.man-content button:hover{
-  background-color: #FBC950;
-  color: #34365A;
+
+/*smart section end*/
+
+
+.item-section{}
+.item-father{
+  display: flex;
+ 
+}
+.item-1{
+ 
+}
+.item-1 img{
+ margin-left:100px;
+
+  
+}
+.item-1 h1{
+  font-size: 20px;
+  margin-top: 42px;
+  text-align: center;
+}
+.item-1 p{
+    width: 50%;
+    text-align: center;
+    margin-left:80px;
+   margin-top: 22px;
+   font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  margin-bottom: 90px;
+
+}
+/* item section end*/
+
+
+
+.digitel-section{
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 88px;
+}
+.digitel-flex{
+  display: flex;
+  
+}
+.clint-about{}
+.clint-about p{
+  width: 75%;
+  margin-top: 42px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+.clint-about button{
+  padding: 14px 28px;
+  border-radius: 28px;
+  color: white;
+  background-color: #34365A;
+  text-transform: capitalize;
+}
+.about-section{
+  background-color: #F1BB13;
+  width: 74%;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  
+  
+}
+.clint-about h5{
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.clint-about a{}
+.about-section h2{
+  margin-left: 60px;
+  padding: 50px 0 10px 0;
+  font-size: 22px;
   font-weight: 600;
+}
+.about-section h1{
+  width: 88%;
+  margin-left: 60px;
+  padding: 0 0 100px 0;
+  font-size: 50px;
+  font-weight: 700;
+ 
+  
+  
+}
+
+.about-section-2{
+  position: relative;
+  
+}
+.icon-1{
+  padding: 0 0 50px 0;
+}
+.icon-1 img{
+  width: 38%;
+  border-radius: 50%;
+  
+}
+.icon-ff{
+ 
+}
+.icon-ff img{
+    position: absolute;
+    width:93px;
+   
+    padding: 22px;
+    border-radius: 50%;
+    background-color: #FBC950;
+     
+    
+
+}
+.icon-2 span{
+  margin-left: 20px;
+  color: #34365A;
+  font-weight: 700;
+ 
+}
+.icon-2 h3{
+  font-size: 20px;
+  margin-left: 140px;
+  margin-bottom: 30px;
+}
+.icon-2 p{
+  width: 64%;
+  margin-left: 140px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.icon-ff-2{
+  margin-top: 60px;
+}
+.icon-ff-2 img{
+  position: absolute;
+    width:92px;
+   
+    padding: 22px;
+    border-radius: 50%;
+    background-color: #FBC950;
+     
+}
+.icon-3 h3{
+  font-size: 20px;
+  margin-left: 140px;
+  font-weight: 700;
+  color: #34365A;
+}
+.icon-3 p{
+  width: 58%;
+  margin-left: 140px;
+  font-weight: 400;
+
+}
+.icon-3 span{
+  margin-left: 20px;
+}
+/*digitel-section end*/
+
+
+.Professtion-section{
+  background-color: #FEC401;
+  margin-bottom: 100px;
+}
+.watch-section-flex{
+  display: flex;
+}
+.watch-conten{}
+.watch-conten h5{
+  padding: 100px 0 20px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #34365abc;
+}
+.watch-conten h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+.watch-conten span{
+  margin: 4px;
+}
+.watch-conten p{
+  font-size: 20px;
+}
+.watch-conten h4{
+  font-size: 16px;
+  text-transform: capitalize;
+  font-style: italic;
+  padding: 10px 0 20px 0;
+}
+.watch-conten button{
+  padding: 14px 38px;
+  border-radius: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: #34365A;
+  color: #f1f2f6;
+}
+.watch-conten button:hover{
+  background-color: #f1f2f6;
+  color: #34365A;
   border: none;
-  padding: 16px 32px;
+}
+.watch-photo{
+  margin-left: 150px;
+}
+.watch-photo img{
+  width: 800px;
+  backface-visibility: hidden;
 }

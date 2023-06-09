@@ -681,3 +681,129 @@ margin-bottom: 40px;
   width: 800px;
   backface-visibility: hidden;
 }
+/*"Professtion-section end*/
+
+
+.customer-section{
+  margin-bottom: 110px;
+}
+.customer-flex{
+  display: flex;
+}
+.customer-1{
+  position: relative;
+  
+}
+.customer-1 img{
+  width: 100%;
+ 
+  display: block;
+}
+.customer-1 h1{
+  width: 70%;
+ top: 0;
+ left: 0;
+ position: absolute;
+ transform: translate(23%,70%);
+ color:#E7E7EC;
+ font-weight: 700;
+ font-size: 46px;
+ 
+  
+}
+.chever-right a i{
+  position: absolute;
+  top:35%;
+  left: 100px;
+  color: #595a6f;
+  border: 4px solid #E7E7EC;
+  padding: 10px 16px;
+  font-weight: 700;
+  border-radius: 50%;
+  font-size: 24px;  
+}
+.customer-identi{
+  display: flex;
+}
+.customer-identi-1{
+  
+}
+.customer-identi-1 img{
+    width: 100%;
+    height: 340px;
+   
+ 
+}
+.customer-identi-2{
+  background-color: #F4C446; 
+  width:100%;
+  padding: 53px; 
+  
+}
+.customer-identi-2 h2{
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-left: 12px;
+  }
+.customer-identi-2 p{
+  width: 100%;
+  margin-left: 12px;
+  margin-top: 30px;
+
+}
+.customer-identi-2 a i {
+  margin-left: 12px;
+  color: #2F3151;
+  font-size: 18px;
+  border: 2px solid #595a6fb5;
+  padding: 8px;
+  color: #595a6f;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+
+  
+  
+}
+
+.customer-2{}
+.customer-work{
+  background-color: #34365A;
+ padding: 20px 50px;
+}
+.customer-work h2{
+  width: 80%;
+  margin-left: 64px;
+  color: white;
+  font-weight: 700;
+ 
+}
+.customer-work p{
+  width: 70%;
+  margin-left:64px ;
+  margin-top: 28px;
+  color: #E7E7EC;
+}
+.customer-work h3{
+  font-size: 18px;
+  margin-left: 64px;
+  color: #E7E7EC;
+  margin-bottom: 30px;
+}
+.customer-work button{
+  margin-left: 64px;
+  padding: 14px 26px;
+  border-radius: 30px;
+  color: #E7E7EC;
+  background-color: transparent;
+  border-color: #E7E7EC;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.customer-2 img{
+    width: 100%;
+}
+
+/*customer section end*/
